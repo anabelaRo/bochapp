@@ -27,7 +27,7 @@ function Login() {
 
   return (
     <div>
-      <h1>Pago de Cuidadores</h1>
+      <h1>Bochapp - Calculo de gastos </h1>
 
       <form onSubmit={iniciarSesion}>
         <div>
