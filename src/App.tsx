@@ -14,16 +14,7 @@ import Feriados from './paginas/Feriados'
 import Liquidacion from './paginas/Liquidacion'
 import Excepciones from './paginas/Excepciones'
 import Sueldo from './paginas/Sueldo'
-
-type Pagina =
-  | 'inicio'
-  | 'cuidadores'
-  | 'tarifas'
-  | 'horarios'
-  | 'feriados'
-  | 'excepciones'
-  | 'liquidacion'
-  | 'sueldo'
+import type { Pagina } from './types'
 
 function App() {
   const [sesion, setSesion] =
