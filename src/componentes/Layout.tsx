@@ -1,16 +1,7 @@
 import { useState } from 'react'
 import type { ReactNode } from 'react'
 import Sidebar from './Sidebar.tsx'
-
-type Pagina =
-  | 'inicio'
-  | 'cuidadores'
-  | 'tarifas'
-  | 'horarios'
-  | 'feriados'
-  | 'excepciones'
-  | 'liquidacion'
-  | 'sueldo'
+import type { Pagina } from './types'
 
 type LayoutProps = {
   children: ReactNode
