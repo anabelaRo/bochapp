@@ -65,7 +65,7 @@ function Sidebar({
 
         <div>
           <div className="logo-title">
-            Pago Cuidadores
+            Calculo de Gasto Cuidadores
           </div>
 
           <div className="logo-subtitle">
