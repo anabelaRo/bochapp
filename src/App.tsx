@@ -14,7 +14,7 @@ import Feriados from './paginas/Feriados'
 import Liquidacion from './paginas/Liquidacion'
 import Excepciones from './paginas/Excepciones'
 import Sueldo from './paginas/Sueldo'
-import type { Pagina } from './types'
+import type { Pagina } from '../types'
 
 function App() {
   const [sesion, setSesion] =
