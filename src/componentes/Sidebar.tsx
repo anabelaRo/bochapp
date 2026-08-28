@@ -1,13 +1,6 @@
 import { supabase } from '../lib/supabase'
 
-type Pagina =
-  | 'inicio'
-  | 'cuidadores'
-  | 'tarifas'
-  | 'horarios'
-  | 'feriados'
-  | 'excepciones'
-  | 'liquidacion'
+import type { Pagina } from '../types'
 
 type SidebarProps = {
   paginaActual: Pagina
