@@ -10,6 +10,7 @@ type Pagina =
   | 'feriados'
   | 'excepciones'
   | 'liquidacion'
+  | 'sueldo'
 
 type LayoutProps = {
   children: ReactNode
