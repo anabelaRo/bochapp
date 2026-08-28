@@ -69,7 +69,7 @@ function Sidebar({
           </div>
 
           <div className="logo-subtitle">
-            Gestión y liquidación
+            Gestión y cálculo aproximado
           </div>
         </div>
 
