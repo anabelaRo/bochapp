@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import type { ReactNode } from 'react'
 import Sidebar from './Sidebar.tsx'
-import type { Pagina } from './types'
+import type { Pagina } from '../types'
 
 type LayoutProps = {
   children: ReactNode
