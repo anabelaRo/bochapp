@@ -55,17 +55,17 @@ function Inicio({
   return (
     <div className="inicio-container">
       <div className="inicio-header">
-        <h1>Pago de Cuidadores</h1>
+        <h1>Cuidadores - Gestión de gasto mensual </h1>
 
         <p className="inicio-subtitle">
-          Gestión de cuidadores y liquidaciones
+          Configuración y cálculo de gasto apróximado mensual
         </p>
       </div>
 
       <div className="inicio-accesos">
         <Acceso
           titulo="Liquidación"
-          descripcion="Calcular el pago mensual"
+          descripcion="Calcular el gasto mensual"
           icono="$"
           onClick={irALiquidacion}
         />
